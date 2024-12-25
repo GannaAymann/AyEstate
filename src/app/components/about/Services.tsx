@@ -7,7 +7,7 @@ import Global from '../../../../public/icons/Global';
 import Link from 'next/link';
 export const Services = () => {
     return (
-        <div className='mt-[40px] px-[20px] xl:px-[64px] '>
+        <div className='mt-[40px] px-[20px] xl:px-[64px] lg:mt-[100px] xl:mt-[180px]'>
             <div className='text-center flex flex-col items-center gap-y-[15px]'>
                 <p className=' w-[104px] bg-[#F4F2FF] text-[#5A48C3] px-[16px] py-[6px] rounded-[50px] font-[600] text-[14px] lg:text-[16px] leading-[20px]'>Services</p>
                 <p className='font-[700] text-[28px] xl:text-[36px] xl:leading-[54px] leading-[36px] text-black'>MEET OUR CREATIVE TEAM</p>
