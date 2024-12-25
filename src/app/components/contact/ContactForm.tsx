@@ -158,7 +158,7 @@ export const ContactForm = () => {
                                             />
                                         </FormControl>
                                         <FormLabel className='font-[500] text-[12px] leading-[15px] md:font-[600] md:text-[16px] md:leading-[20px]'>
-                                            I agree to Loom's Terms of Service and
+                                            I agree to Loom s Terms of Service and
                                             Privacy Policy.
                                         </FormLabel>
                                     </FormItem>
