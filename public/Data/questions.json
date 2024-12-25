@@ -1,0 +1,26 @@
+{
+    "questions":[
+
+        {   
+            "id":"1",
+            "question":"How many steps to get a job?",
+            "answer":"Et lectus viverra aenean malesuada praesent. Egestas praesent quam auctor amet ac, ac vel. Euismod proin massa feugiat gravida tellus auctor ac, vitae justo."
+        },{ 
+            "id":"2",
+            "question":"What do we need to apply for a job?",
+            "answer":"Et lectus viverra aenean malesuada praesent. Egestas praesent quam auctor amet ac, ac vel. Euismod proin massa feugiat gravida tellus auctor ac, vitae justo."
+        },{
+            "id":"3",
+            "question":"Do we get cv from jobify?",
+            "answer":"Et lectus viverra aenean malesuada praesent. Egestas praesent quam auctor amet ac, ac vel. Euismod proin massa feugiat gravida tellus auctor ac, vitae justo."
+        },{
+            "id":"4",
+            "question":"Can we reschedule the interview meeting?",
+            "answer":"Et lectus viverra aenean malesuada praesent. Egestas praesent quam auctor amet ac, ac vel. Euismod proin massa feugiat gravida tellus auctor ac, vitae justo."
+        },{
+            "id":"5",
+            "question":"Can we apply for all jobs?",
+            "answer":"Et lectus viverra aenean malesuada praesent. Egestas praesent quam auctor amet ac, ac vel. Euismod proin massa feugiat gravida tellus auctor ac, vitae justo."
+        }
+    ]
+}

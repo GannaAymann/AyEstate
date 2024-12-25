@@ -1,0 +1,56 @@
+{
+    "home":[
+        {   
+            "id":"1",
+            "title":"Luxury Villa",
+            "prop":"Oceanfront",
+            "price":"$1,000,000",
+            "src":"/images/LuxuryVilla.png"
+            
+        },{ 
+            "id":"2",
+            "title":"Chill Apartment",
+            "prop":"City Center",
+            "price":"$500,000",
+            "src":"/images/ModernApartment.png"
+        },{ 
+            "id":"3",
+            "title":"Cozy Cottage",
+            "prop":"Mountain View",
+            "price":"$300,000",
+             "src":"/images/CozyCottage.png"
+        },{ 
+            "id":"4",
+            "title":"Spacious Condo",
+            "prop":"Beachfront",
+            "price":"$700,000",
+             "src":"/images/SpaciousCondo.png"
+
+        },{
+            "id":"5",
+            "title":"Luxury Penthouse",
+            "prop":"Downtown",
+            "price":"$1,500,000",
+             "src":"/images/LuxuryPenthouse.png"
+        },{ 
+            "id":"6",
+            "title":"Lakefront Retreat",
+            "prop":"Lake View",
+            "price":"$800,000",
+             "src":"/images/LakefrontRetreat.png"
+        },{ 
+            "id":"7",
+            "title":"Nusa Indah Villa",
+            "prop":"Garden View",
+            "price":"$400,000",
+             "src":"/images/CharmingBungalow.png"
+        },
+        {  
+            "id":"8",
+           "title":"Luxury Villa",
+            "prop":"Oceanfront",
+            "price":"$1,000,000",
+             "src":"/images/LuxuryVilla.png"
+        }
+    ]
+}

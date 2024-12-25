@@ -1,0 +1,54 @@
+{
+    "team":[
+        {    
+            "id":"1",
+            "image":"/images/JuanOrdonez.png",
+            "name":"Muhammad Abubakar A.",
+            "title":"Director",
+            "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+        },
+        {    
+            "id":"2",
+           "image":"/images/JamesBarr.png",
+            "name":"Alexander Isak",
+            "title":"CEO",
+            "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+        },{
+            "id":"3",
+            "image":"/images/daniilLobachev.png",
+            "name":"Christina W.",
+            "title":"Manager",
+            "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+        },{
+            "id":"4",
+            "image":"/images/James.png",
+            "name":"Brian Oconner",
+            "title":"Supervisor",
+            "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+        },{ 
+            "id":"5",
+            "image":"/images/calicadoo.png",
+            "name":"Natalie A.",
+            "title":"Creative Director",
+            "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+        },{
+            "id":"6",
+            "image":"/images/mikailDuran.png",
+            "name":"Hengky Doe",
+            "title":"Developer",
+            "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+        },{ 
+            "id":"7",
+            "image":"/images/oladimejiOdunsi.png",
+            "name":"Anna Withanna",
+            "title":"Marketing",
+            "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+        },{
+            "id":"8",
+            "image":"/images/natashakasim.png",
+            "name":"Setya Wijayanti",
+            "title":"Content Creator",
+            "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+        }
+    ]
+}

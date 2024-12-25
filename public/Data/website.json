@@ -1,0 +1,26 @@
+{
+    "questions":[
+
+        {   
+            "id":"1",
+            "question":"What Types of properties are available on your website?",
+            "answer":"Et lectus viverra aenean malesuada praesent. Egestas praesent quam auctor amet ac, ac vel. Euismod proin massa feugiat gravida tellus auctor ac, vitae justo."
+        },{ 
+            "id":"2",
+            "question":"How Do i schedule a viewing of a property listed on your website?",
+            "answer":"Et lectus viverra aenean malesuada praesent. Egestas praesent quam auctor amet ac, ac vel. Euismod proin massa feugiat gravida tellus auctor ac, vitae justo."
+        },{
+            "id":"3",
+            "question":"Can i list my property for sale or rent on your website?",
+            "answer":"Et lectus viverra aenean malesuada praesent. Egestas praesent quam auctor amet ac, ac vel. Euismod proin massa feugiat gravida tellus auctor ac, vitae justo."
+        },{
+            "id":"4",
+            "question":"What should i consider when buying a home?",
+            "answer":"Et lectus viverra aenean malesuada praesent. Egestas praesent quam auctor amet ac, ac vel. Euismod proin massa feugiat gravida tellus auctor ac, vitae justo."
+        },{
+            "id":"5",
+            "question":"how do i determine the value of my property?",
+            "answer":"Et lectus viverra aenean malesuada praesent. Egestas praesent quam auctor amet ac, ac vel. Euismod proin massa feugiat gravida tellus auctor ac, vitae justo."
+        }
+    ]
+}

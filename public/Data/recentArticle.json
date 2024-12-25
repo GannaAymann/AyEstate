@@ -1,0 +1,61 @@
+{
+    "article":[
+        {    
+            "id":"1",
+            "title1":"4 February 2024",
+            "subtitle1":"Tips",
+            "subtitle":"15 Reasons Why Real Estate is the Best Investment",
+            "imgsource":"/images/recent1.png"
+        },{  
+            "id":"2",
+            "title1":"28 January 2024",
+            "subtitle1":"Success Stories",
+            "subtitle":"Renters Are Still Moving—These Markets Are ",
+            "imgsource":"/images/recent2.png"
+        },{
+
+            "id":"3",
+            "title1":"21 January 2024",
+            "subtitle1":"Invest",
+            "subtitle":"Every Major U.S. City Where It’s More Expensive to Rent",
+            "imgsource":"/images/recent3.png"
+        },{
+            "id":"4",
+            "title1":"15 January 2024",
+            "subtitle1":"Success Stories",
+            "subtitle":"Redfin Report Shows Investors to Low-Cost Properties",
+            "imgsource":"/images/recent4.png"
+        },{  
+            "id":"5",
+            "title1":"6 January 2024",
+            "subtitle1":"Invest Strategies",
+            "subtitle":"Low-Cost Properties Are Actually the Most Expensive",
+            "imgsource":"/images/recent5.png"
+        },{ 
+            "id":"6",
+            "title1":"31 Desember 2023",
+            "subtitle1":"Tips",
+            "subtitle":"Unlocking the Secrets of Successful Home Staging",
+            "imgsource":"/images/recent6.png"
+        },
+        {   
+            "id":"7",
+            "title1":"31 Desember 2023",
+            "subtitle1":"Tips",
+            "subtitle":"Strategic Tips for buying your first house",
+            "imgsource":"/images/recent7.png"
+        },{ 
+            "id":"8",
+            "title1":"17 Desember 2023",
+            "subtitle1":"Success Stories",
+            "subtitle":"Its time to prepare your house for a sprint listing",
+            "imgsource":"/images/recent8.png"
+        },{ 
+            "id":"9",
+            "title1":"10 Desember 2023",
+            "subtitle1":"Tips",
+            "subtitle":"Smart Homes: Innovations in Real Estate Technology",
+            "imgsource":"/images/recent9.png"
+        }
+    ]
+}
