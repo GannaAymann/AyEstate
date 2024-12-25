@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     default: "AyEstate",
     template: "%s - AyEstate "
   },
-  description: "Discover the perfect property tailored to your lifestyle with AyEstate. Our real estate services are designed to offer unique advantages that set us apart from the competition. Whether you're buying, selling, or renting, AyEstate ensures that you find the ideal home that meets your needs. Start your journey today and find your dream home with us!",
+  description: "Start your property journey with AyEstate today and take the first step toward finding your dream home. With our knowledge and dedication, we are here to make your real estate dreams a reality. Let us help you discover the perfect property and experience a level of service that truly sets us apart.",
 };
 
 export default function RootLayout({
