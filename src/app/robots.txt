@@ -5,4 +5,4 @@ Disallow: /_next/
 Allow: /
 
 # Sitemap location
-Sitemap: https://ay-estate-chi.vercel.app/sitemap.xml
+Sitemap: https://ay-estate-liard.vercel.app/sitemap.xml

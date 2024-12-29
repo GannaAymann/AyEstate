@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     default: "AyEstate",
     template: "%s - AyEstate "
   },
-  description: "Start your property journey with AyEstate today and take the first step toward finding your dream home. With our knowledge and dedication, we are here to make your real estate dreams a reality. Let us help you discover the perfect property and experience a level of service that truly sets us apart.",
+  description: "Start your property journey with AyEstate. Our expertise and dedication help you find your dream home with exceptional service. Let us guide you today.",
 };
 
 export default function RootLayout({

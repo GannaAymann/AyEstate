@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import React from 'react'
 export const metadata: Metadata = {
     title: 'Recent blog',
-    description: 'Here there are a list of recent articles in AyEstate',
+    description: 'Explore a list of recent articles from AyEstate, featuring valuable insights and updates.',
 
 }
 export default function RootLayout({
