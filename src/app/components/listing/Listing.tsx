@@ -42,6 +42,7 @@ import Frame from '../../../../public/icons/Frame';
 import ArrowLeft from '../../../../public/icons/ArrowLeft';
 import ArrowRight from '../../../../public/icons/ArrowRight';
 import { FilterComponent } from './FilterComponent'
+import Link from 'next/link';
 export const Listing = () => {
     const windowSize = useWindowSize();
     return (
@@ -55,16 +56,16 @@ export const Listing = () => {
                 <div className="flex justify-between gap-x-[8px] ">
                     <div className='flex gap-x-[4px] items-center'>
                         <p className='font-[400] text-[16px] leading-[25px] text-app-gray hidden sm:block'>Sort By:</p>
-                        <Select>
-                            <SelectTrigger className="w-[180px] rounded-[8px] border-[#E4E9EE]">
+                        <Select >
+                            <SelectTrigger className="w-[180px] rounded-[8px] border-[#E4E9EE]" aria-label='select'>
                                 <SelectValue placeholder="Relevant Products" />
                             </SelectTrigger>
                             <SelectContent>
                                 <SelectGroup className="bg-white">
-                                    <SelectLabel>Relevant Products</SelectLabel>
-                                    <SelectItem value="home1">home1</SelectItem>
-                                    <SelectItem value="home2">home2</SelectItem>
-                                    <SelectItem value="home3">home3</SelectItem>
+                                    <SelectLabel aria-label='relevant'>Relevant Products</SelectLabel>
+                                    <SelectItem value="home1" aria-label='home1'>home1</SelectItem>
+                                    <SelectItem value="home2" aria-label='home2'>home2</SelectItem>
+                                    <SelectItem value="home3" aria-label='home3'>home3</SelectItem>
                                 </SelectGroup>
                             </SelectContent>
                         </Select>
@@ -86,7 +87,7 @@ export const Listing = () => {
                         </DropdownMenu>
                         <Separator orientation="vertical" className="bg-[#E4E9EE] w-[1px] h-[24px] block sm:hidden" />
                         <SearchBox />
-                        <Button className="border-[#E4E9EE] border-[1px] rounded-[8px] p-[6px]" variant="ghost">
+                        <Button className="border-[#E4E9EE] border-[1px] rounded-[8px] p-[6px]" variant="ghost" aria-label="menu">
                             <Menu />
                         </Button>
 
@@ -103,7 +104,7 @@ export const Listing = () => {
                 </div>
                 <div className='grid grid-cols-2  gap-y-[24px] gap-x-[16px] items-center  mt-[24px] md:mt-0'>
                     {data.listing.map((item, index) => (
-                        <div key={index}>
+                        <Link key={index} href={`listing/detail/${item.id}`} >
                             <Image
                                 src={item.imageSrc}
                                 alt={item.title}
@@ -154,7 +155,7 @@ export const Listing = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                     ))}
                 </div>
             </div>
@@ -165,7 +166,7 @@ export const Listing = () => {
                 <PaginationContent>
 
                     <PaginationItem>
-                        <PaginationLink href="#">
+                        <PaginationLink href="#" aria-label='back'>
                             <ArrowLeft />
                         </PaginationLink>
                     </PaginationItem>
@@ -184,7 +185,7 @@ export const Listing = () => {
                         <PaginationEllipsis />
                     </PaginationItem>
                     <PaginationItem>
-                        <PaginationLink href="#">
+                        <PaginationLink href="#" aria-label='next'>
                             <ArrowRight />
                         </PaginationLink>
                     </PaginationItem>

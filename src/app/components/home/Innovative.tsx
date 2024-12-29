@@ -11,7 +11,7 @@ export const Innovative = () => {
                 </div>
                 <div className='flex flex-col gap-y-[24px] lg:gap-y-[32px] mt-[20px] lg:mt-0 items-center lg:items-start lg:w-[616px]'>
                     <p className="font-[400] text-[16px] lg:text-[18px] lg:leading-[27px] leading-[24px] text-white">At our company, we take pride in our exceptional success rate, having listed thousands of properties, and ensuring client satisfaction is our top priority.</p>
-                    <Button className="font-[600] text-[16px] leading-[24px] bg-app-lightgreen hover:bg-app-lightgreen rounded-[12px] w-[140px] ">Learn More</Button>
+                    <Button className="font-[600] text-[16px] leading-[24px] bg-app-lightgreen hover:bg-app-lightgreen rounded-[12px] w-[140px] " aria-label="learn">Learn More</Button>
                 </div>
             </div>
 

@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /_next/
+
+# Allow everything else
+Allow: /
+
+# Sitemap location
+Sitemap: https://ay-estate-chi.vercel.app/sitemap.xml

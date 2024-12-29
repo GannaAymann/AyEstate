@@ -28,9 +28,9 @@ export const Services = () => {
                         <p className='mt-[8px] font-[400] text-[14px] xl:text-[18px] leading-[20px]'>{member.title}</p>
                         <p className='mt-[8px] lg:mt-[16px] font-[400] text-[14px] xl:text-[16px] leading-[20px] text-center'>{member.desc}</p>
                         <div className='flex flex-row gap-x-[17px] items-center mt-[24px]'>
-                            <Link href={""}><Linkedin /></Link>
-                            <Link href={""}><Twitter /></Link>
-                            <Link href={""}><Global /></Link>
+                            <Link href={"/linked"} aria-label='linkedin'><Linkedin /></Link>
+                            <Link href={"/twitter"} aria-label='twitter'><Twitter /></Link>
+                            <Link href={"/google"} aria-label='google'><Global /></Link>
 
                         </div>
                     </div>

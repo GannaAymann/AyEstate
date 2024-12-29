@@ -104,7 +104,7 @@ export const ContactForm = () => {
                                                 onValueChange={field.onChange}
                                                 value={field.value}
                                             >
-                                                <SelectTrigger className='rounded-[16px] bg-[#F6F8F9] text-app-gray text-[14px] font-[400] leading-[22px] border-transparent xl:py-[18px] py-[12px]'>
+                                                <SelectTrigger className='rounded-[16px] bg-[#F6F8F9] text-app-gray text-[14px] font-[400] leading-[22px] border-transparent xl:py-[18px] py-[12px]' aria-label='select'>
                                                     <SelectValue
                                                         placeholder="What you want"
                                                     />
@@ -155,6 +155,7 @@ export const ContactForm = () => {
                                                 checked={field.value}
                                                 onCheckedChange={field.onChange}
                                                 className='rounded-[4px] border-[1px] border-app-gray'
+                                                aria-label='checkbox'
                                             />
                                         </FormControl>
                                         <FormLabel className='font-[500] text-[12px] leading-[15px] md:font-[600] md:text-[16px] md:leading-[20px]'>

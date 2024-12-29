@@ -35,7 +35,7 @@ export const Faq = () => {
                                 {item.question}
                             </p>
                             <CollapsibleTrigger asChild>
-                                <Button variant="ghost" aria-label={`${item.question}`} size="sm" className="p-0 bg-transparent hover:bg-transparent">
+                                <Button variant="ghost" aria-label={`${item.question}`} size="sm" className="p-0 bg-transparent hover:bg-transparent" >
                                     {openId != null && openId === item.id ? (
                                         <Minus />
                                     ) : (<Add />)}
@@ -51,7 +51,7 @@ export const Faq = () => {
                     </Collapsible>
                 ))}
             </div>
-            <Button className='bg-app-lightgreen hover:bg-app-lightgreen  text-black font-[600] text-[12px] leading-[15px] w-[335px] sm:w-[190px] rounded-[12px] mt-[24px] md:mt-[50px]'>Give a Quote</Button>
+            <Button className='bg-app-lightgreen hover:bg-app-lightgreen  text-black font-[600] text-[12px] leading-[15px] w-[335px] sm:w-[190px] rounded-[12px] mt-[24px] md:mt-[50px]' aria-label="quote">Give a Quote</Button>
         </div>
     )
 }

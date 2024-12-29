@@ -3,7 +3,7 @@ import type { MetadataRoute } from 'next'
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://ay-estate-site.vercel.app',
+      url: 'https://localhost:3000',
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 1,

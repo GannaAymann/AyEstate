@@ -30,7 +30,7 @@ export const Properties = () => {
                         <p className='text-black font-[600] xl:text-[18px] text-[16px] leading-[24px] mt-[16px]'>{item.title}</p>
                         <p className='text-black font-[400] text-[14px] leading-[21px]' >{item.prop}</p>
                         <p className='text-black font-[600] text-[18px] leading-[21px] mt-[10px]'>{item.price}</p>
-                        <Button className='border-[1px] border-black rounded-[12px] bg-transparent hover:bg-transparent w-full text-black mt-[16px]'>View Details</Button>
+                        <Button className='border-[1px] border-black rounded-[12px] bg-transparent hover:bg-transparent w-full text-black mt-[16px]' aria-label="view">View Details</Button>
                     </div>
                 ))}
             </div>

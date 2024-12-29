@@ -87,7 +87,7 @@ export const Detail = () => {
                     <p className='font-[700] text-[36px] leading-[43px] mt-[12px]'>Experience the Perfect Blend of Comfort and Style</p>
                     <p className='font-[400] text-[16px] leading-[24px] mt-[20px]'>Welcome to our stunning property! With a beautiful image gallery, immersive virtual tour, and outstanding features, this is the perfect place to call home. Explore the spacious rooms, modern amenities, and convenient location that make this property truly exceptional.</p>
                     <div className='flex gap-x-[24px] mt-[24px] items-center'>
-                        <Button className="bg-app-lightgreen rounded-[12px] text-[16px] font-[600] h-[48px]">Learn More</Button>
+                        <Button className="bg-app-lightgreen rounded-[12px] text-[16px] font-[600] h-[48px]" aria-label="learn">Learn More</Button>
                         <div className="flex gap-x-[16px] items-center">
                             <p>Contact</p>
                             <ArrowRight />

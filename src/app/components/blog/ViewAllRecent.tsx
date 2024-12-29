@@ -52,7 +52,7 @@ export const ViewAllRecent = () => {
                 <PaginationContent>
 
                     <PaginationItem>
-                        <PaginationLink href="#">
+                        <PaginationLink href="#" aria-label='back'>
                             <ArrowLeft />
                         </PaginationLink>
                     </PaginationItem>
@@ -71,7 +71,7 @@ export const ViewAllRecent = () => {
                         <PaginationEllipsis />
                     </PaginationItem>
                     <PaginationItem>
-                        <PaginationLink href="#">
+                        <PaginationLink href="#" aria-label='next'>
                             <ArrowRight />
                         </PaginationLink>
                     </PaginationItem>

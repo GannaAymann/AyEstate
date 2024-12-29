@@ -30,8 +30,8 @@ export const Simplify = () => {
                     </div>
                 </div>
                 <div className='flex flex-row gap-x-[24px] xl:mt-[64px] mt-[40px]'>
-                    <Button className='rounded-[12px] bg-app-lightgreen text-black hover:bg-app-lightgreen text-[16px] font-[600] leading-[24px]'>Learn More</Button>
-                    <Button className='p-0 bg-transparent hover:bg-transparent text-black gap-x-[16px]'>Contact
+                    <Button className='rounded-[12px] bg-app-lightgreen text-black hover:bg-app-lightgreen text-[16px] font-[600] leading-[24px]' aria-label="learn">Learn More</Button>
+                    <Button className='p-0 bg-transparent hover:bg-transparent text-black gap-x-[16px]' aria-label="contact">Contact
                         <LeftArrow />
                     </Button>
                 </div>
